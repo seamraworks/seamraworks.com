@@ -34,7 +34,9 @@ body {
 .intro {
   width: min(720px, 100%);
   border: 1px solid var(--line);
+  border-left: 6px solid var(--accent);
   background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 18px 48px rgba(23, 21, 17, 0.12);
   padding: clamp(28px, 8vw, 64px);
 }
 
